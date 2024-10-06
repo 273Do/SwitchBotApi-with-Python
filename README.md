@@ -18,3 +18,4 @@ DEVICE_ID=
 ```
 
 9. `python3 ファイル名`でプログラムを実行．
+10. 終了時は`exit`でコンテナから抜け，`docker compose down`でコンテナを終了させる．
