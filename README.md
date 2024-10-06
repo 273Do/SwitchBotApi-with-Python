@@ -7,14 +7,14 @@
 5. 同様に`docker exec -it sb-api-python3 /bin/bash `でコンテナの中に入る．
 6. `cd app`で app ディレクトリに移動．
 7. app ディレクトリの中に`.env`ファイルを作成．
-8. `.env`ファイルに以下を記述する．=の後に必要な記述
+8. `.env`ファイルに以下を記述する．=の後に必要な記述をする．
 
-````
+```
 SB_TOKEN=
 SECRET_TOKEN=
 
 # :を削除してください
-DEVICE_ID=```
-````
+DEVICE_ID=
+```
 
 9. `python3 ファイル名`でプログラムを実行．
